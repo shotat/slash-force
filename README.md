@@ -1,5 +1,7 @@
 # SlashForce
 
+<img src="https://github.com/shotat/slash-force/blob/images/slash-logo.png" width=400px />
+
 `SlashForce` is a simple gem for `Ruby on Rails` to append trailing slash to paths.
 
 ## example
