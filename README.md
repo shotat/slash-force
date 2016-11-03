@@ -1,10 +1,10 @@
 # SlashForce
 
-SlashForce is a simple gem for Ruby on Rails to append trailing slash to paths.
+`SlashForce` is a simple gem for `Ruby on Rails` to append trailing slash to paths.
 
 ## example
 
-- `http://example.com` is redirected to `http://example.com`
+- `http://example.com` is redirected to `http://example.com/`
 - `http://example.com/test?foo=1` is redirected to `http://example.com/test/?foo=1`
 
 ## Installation
