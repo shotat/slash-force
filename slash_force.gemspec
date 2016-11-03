@@ -9,19 +9,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ["shotat"]
   spec.email         = ["shotat@users.noreply.github.com"]
 
-  spec.summary       = %q{append slash}
-  spec.description   = %q{append slash}
-  spec.homepage      = "https://example.com"
+  spec.summary       = %q{SlashForce is a simple gem for Ruby on Rails to append trailing slash to paths.}
+  spec.description   = %q{SlashForce is a simple gem for Ruby on Rails to append trailing slash to paths.}
+  spec.homepage      = "https://github.com/shotat/slash-force"
   spec.license       = "MIT"
-
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "http://mygemserver.com"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against " \
-      "public gem pushes."
-  end
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
